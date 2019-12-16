@@ -1,5 +1,6 @@
 Description: API for Trello Board creation
-
+Meta:
+@skip
 Scenario: API board
 Given request body:
 {
