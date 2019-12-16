@@ -1,5 +1,6 @@
 Description: Sign In scenario
-
+Meta:
+@skip
 Scenario: Sign in
 Given I am on the main application page
 When I click on an element by the xpath '//a[@href='/login']'

@@ -1,6 +1,5 @@
 Description: Registration/SignUp (examples table and expression)
-Meta:
-@skip
+
 Scenario: Registration/SignUp
 Given I am on the main application page
 When I click on an element by the xpath '//a[@data-analytics-event="clickedSignupHeaderButton"]'
